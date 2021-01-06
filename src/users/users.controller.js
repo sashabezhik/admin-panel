@@ -1,4 +1,4 @@
-const usersService = require('../services/users.service')
+const usersService = require('./users.service')
 const usersRouter = require('express').Router()
 
 usersRouter.post('/users/', async (req, res) => {

@@ -1,8 +1,8 @@
 const express = require('express')
 const { connect } = require('mongoose')
 const partials = require('express-partials')
-const { configService } = require('./services/config.service')
-const { usersRouter } = require('./controllers/users.controller')
+const { configService } = require('./config/config.service')
+const { usersRouter } = require('./users/users.controller')
 
 class AppServer {
 	constructor() {
