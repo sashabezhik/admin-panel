@@ -2,10 +2,10 @@
 	"name": "admin-panel",
 	"version": "1.0.0",
 	"description": "admin-panel",
-	"main": "server.js",
+	"main": "app.js",
 	"scripts": {
-		"start": "node server",
-		"dev": "nodemon server"
+		"start": "node index",
+		"dev": "nodemon index"
 	},
 	"author": "Alexandr <sashabezhik@gmail.com>",
 	"license": "ISC",
